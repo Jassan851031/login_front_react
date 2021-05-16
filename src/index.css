@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
+
+#navbarNav{
+  font-family: 'Berkshire Swash', cursive;
+}
+
+body {
+  background-image: url("theone.jpg");
+  background-repeat: no-repeat ;
+  background-size: cover;
+  background-attachment: fixed;
+}
