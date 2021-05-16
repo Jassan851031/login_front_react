@@ -45,7 +45,7 @@ export default class Register extends React.Component {
                                                 <div className="form-row">
                                                     <div className="form-group col-6">
                                                         <label htmlFor="email">Email</label>
-                                                        <input type="email" name="email" className="form-control" id="email_form" value={store.email} onChange={e => actions.handleChange(e)} />
+                                                        <input type="email" name="email" className="form-control" id="email_form"  onChange={e => actions.handleChange(e)} />
                                                     </div>
                                                     <div className="col-6">
                                                     </div>
@@ -53,7 +53,7 @@ export default class Register extends React.Component {
                                                 <div className="form-row">
                                                     <div className="form-group col-6">
                                                         <label htmlFor="password">Password</label>
-                                                        <input type="password" name="password" className="form-control" id="password_form" value={store.password} onChange={e => actions.handleChange(e)} />
+                                                        <input type="password" name="password" className="form-control" id="password_form"  onChange={e => actions.handleChange(e)} />
                                                     </div>
                                                 </div>
                                             </form>

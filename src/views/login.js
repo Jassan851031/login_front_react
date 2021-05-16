@@ -9,10 +9,11 @@ import './../css/login.css';
 
 const Login = props => {
 
+    const { store, actions } = useContext(Context);
+    
     const showModalregister = () => {
         $('#modalregister').modal('show');
     }
-    const { store, actions } = useContext(Context);
 
     return (
         <div className="container">
@@ -51,7 +52,7 @@ const Login = props => {
                                 <button className="btn btn-dark btn-block" id="boton" onClick={showModalregister}>Registrarse</button>
                             </div>
                             <div className="row d-flex justify-content-center mt-2 mb-2">
-                                <div className="col-4">
+                                <div className="col-12">
                                     {store.createUser_Error === null ? "" :
                                         (<div className="alert alert-danger d-flex justify-content-center" role="alert">
                                             <p>Error al crear nuevo usuario. <br />
