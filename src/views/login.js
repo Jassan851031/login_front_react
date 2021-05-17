@@ -5,8 +5,6 @@ import $ from 'jquery';
 import './../css/login.css';
 
 
-
-
 const Login = props => {
 
     const { store, actions } = useContext(Context);
@@ -64,20 +62,6 @@ const Login = props => {
                                 </div>
                             </div>            
                         </div>
-
-
-
-
-
-                      
-                            
-
-
-
-
-
-
-
                     </div>
                 </div>
             </div>

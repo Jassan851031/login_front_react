@@ -4,7 +4,7 @@ import { Context } from './../store/appContext';
 import './../css/home_admin.css';
 
 
-const Home_admin = props => {
+const Home_admin = () => {
     return (
         <>
             <Context.Consumer>

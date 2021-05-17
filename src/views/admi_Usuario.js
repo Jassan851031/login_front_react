@@ -4,13 +4,6 @@ import { Link, Redirect } from 'react-router-dom';
 import '../css/admi_Usuario.css';
 
 export default class Admi_Usuario extends React.Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {
-            userEdit: {}
-        }
-    }
     
     render() {
         return (
