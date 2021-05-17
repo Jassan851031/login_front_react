@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import { Context } from './../store/appContext';
 import Register from '../components/users/modal_register';
 import $ from 'jquery';

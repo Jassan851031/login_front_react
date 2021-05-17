@@ -1,7 +1,6 @@
 import React from 'react';
 import { Context } from './../store/appContext';
 import { Link, Redirect } from 'react-router-dom';
-import $ from 'jquery';
 import '../css/admi_Usuario.css';
 
 export default class Admi_Usuario extends React.Component {
